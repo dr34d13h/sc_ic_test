@@ -4,7 +4,7 @@ from sqlalchemy.sql import select, and_
 from datetime import datetime
 
 
-engine = create_engine("mysql+pymysql://alex:Fyfcnfcbz2002@127.0.0.1:3305/pyloungedb", echo=True)
+engine = create_engine("mysql+pymysql://root:root@127.0.0.1:3305/pyloungedb", echo=True)
 meta = MetaData(engine)
 
 
